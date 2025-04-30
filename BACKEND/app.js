@@ -13,6 +13,7 @@ app.use(cors({
     credentials: true,
 }));
 
+console.log("CORS enabled")
 app.get("/",(req,res)=>{
     res.send("Hello world")
 })
