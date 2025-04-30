@@ -1,0 +1,55 @@
+# Node.js dependencies
+/BACKEND/node_modules/
+/FRONTEND/node_modules/
+
+# Logs
+/BACKEND/logs/
+/FRONTEND/logs/
+*.log
+
+# Environment variables
+/BACKEND/.env
+/BACKEND/.env.*
+/FRONTEND/.env
+/FRONTEND/.env.*
+
+# Build and distribution directories
+/BACKEND/dist/
+/BACKEND/build/
+/FRONTEND/dist/
+/FRONTEND/build/
+
+# Cache and temporary files
+/BACKEND/.cache/
+/FRONTEND/.cache/
+*.tmp
+*.bak
+*.old
+
+# IDEs and editors
+/BACKEND/.vscode/
+/FRONTEND/.vscode/
+/BACKEND/.idea/
+/FRONTEND/.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python-specific files (if applicable)
+/BACKEND/__pycache__/
+/BACKEND/*.py[cod]
+/BACKEND/*.pyo
+/BACKEND/*.pyd
+/BACKEND/env/
+/BACKEND/venv/
+/BACKEND/*.egg-info/
+
+# Compiled files
+/BACKEND/*.out
+/BACKEND/*.class
+/BACKEND/*.o
+/FRONTEND/*.out
+/FRONTEND/*.class
+/FRONTEND/*.o
